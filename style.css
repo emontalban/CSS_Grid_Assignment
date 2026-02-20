@@ -1,0 +1,77 @@
+
+/* Grid 1*/
+.gridOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #e6e1e1;
+}
+
+/* Grid 2*/
+.gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.gridTwo >.red{
+    background-color: #ff0000;
+}
+.gridTwo > .blue{
+    background-color: #009dff;
+}
+.gridTwo >.yellow{
+    background-color: #ffff00;
+}
+
+/* Grid 3*/
+.gridThree{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 300px;
+    width: 500px;
+    background-color: #e6e1e1;
+}
+
+.gridThree > .imagen{
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+/* Grid 4*/
+.gridFour{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    width: 500px;
+}
+#twoParagraphs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Grid 5*/
+.gridFive{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #e6e1e1;
+    width: 500px;
+}
+#twoImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#twoImages img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+/* Grid 6*/
+.gridSix{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: #808080;
+}
+.gridSix p{
+    font-family: "Betania Patmos In GDL", cursive;
+}
